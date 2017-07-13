@@ -1,6 +1,12 @@
-import React from 'react';
-import combineReducers from 'redux';
+import { combineReducers } from 'redux';
+
+const reducer = (state = [], action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+}
 
 export const caravanApp = combineReducers({
-  //imported reducers here in a comma-separated list
+  reducer
 })
