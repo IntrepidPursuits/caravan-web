@@ -7,6 +7,7 @@ export class LandingPage extends Component {
     return(
       <div className='container'>
         <div className='Mask'>
+          <p></p>
         </div>
         <div className='white-background'>
           <div className='Tagline'>
