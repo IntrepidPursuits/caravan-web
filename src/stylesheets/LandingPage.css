@@ -32,7 +32,19 @@ button:focus {
   overflow: hidden;
 }
 
-.Log-in-with-Google {
+.description {
+  margin-bottom: 0.04%;
+  margin-left: 13.3%;
+  margin-right: 22.2%;
+  margin-top: 0px;
+  font-family: Montserrat;
+  font-size: 1.4vw;
+  line-height: 144%;
+  text-align: left;
+  color: #fd595a;
+}
+
+.button-text {
   padding-bottom: 4.9%;
   padding-right: 9.5%;
   padding-top: 4.9%;
@@ -77,14 +89,14 @@ button:focus {
   padding-top: 5%;
 }
 
-.Mask {
+.mask {
   width: 100%;
   height: 100vh;
   background-position: 21% 15%;
   background-image: url('./backgrounds/Background_Pattern_Fade.png');
 }
 
-.Tagline {
+.tagline {
   margin-bottom: 3.4%;
   margin-left: 13.3%;
   margin-right: 13.3%;
@@ -92,18 +104,6 @@ button:focus {
   font-family: Montserrat;
   font-size: 3vw;
   font-weight: bold;
-  color: #fd595a;
-}
-
-.tagline-copy {
-  margin-bottom: 0.04%;
-  margin-left: 13.3%;
-  margin-right: 22.2%;
-  margin-top: 0px;
-  font-family: Montserrat;
-  font-size: 1.4vw;
-  line-height: 144%;
-  text-align: left;
   color: #fd595a;
 }
 
