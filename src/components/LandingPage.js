@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../stylesheets/LandingPage.css';
-import icGooglePlus from '../stylesheets/CaravanWeb_Assets/ic-google-plus.png';
-import SplashScreenCar from '../stylesheets/CaravanWeb_Assets/SplashScreen_Car.png'
+import icGooglePlus from '../assets/ic-google-plus.png';
+import SplashScreenCar from '../assets/SplashScreen_Car.png'
 
 export class LandingPage extends Component {
   render(){

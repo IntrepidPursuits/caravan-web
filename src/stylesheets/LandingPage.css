@@ -81,7 +81,7 @@ button:focus {
   width: 100%;
   height: 100vh;
   background-position: 21% 15%;
-  background-image: url('./CaravanWeb_Assets/Background_Pattern_Fade.png');
+  background-image: url('./backgrounds/Background_Pattern_Fade.png');
 }
 
 .Tagline {
