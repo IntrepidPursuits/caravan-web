@@ -18,12 +18,26 @@ button:active {
   border: solid 3px #ffffff;
 }
 
+.car-wrapper {
+  width: 47.2vw;
+  height: 76.11vh;
+  padding-top: 30vh;
+}
+
+img.car {
+  width: 86.85vw;
+  position: absolute;
+  left: -40vw;
+  top: 22vh;
+}
+
 .container {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 100%;
   font-size: 100vw;
+  overflow: hidden;
 }
 
 .google-button {

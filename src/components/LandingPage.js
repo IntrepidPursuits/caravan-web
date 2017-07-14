@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../stylesheets/LandingPage.css';
 import icGooglePlus from '../stylesheets/CaravanWeb_Assets/ic-google-plus.png';
+import SplashScreenCar from '../stylesheets/CaravanWeb_Assets/SplashScreen_Car.png'
 
 export class LandingPage extends Component {
   render(){
@@ -9,6 +10,9 @@ export class LandingPage extends Component {
         <div className='Mask'>
           <div className='logo'>
             Caravan
+          </div>
+          <div className='car-wrapper'>
+            <img className='car' src={SplashScreenCar} alt='' />
           </div>
         </div>
         <div className='white-background'>
