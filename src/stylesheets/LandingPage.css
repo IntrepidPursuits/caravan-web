@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(to bottom, #fc8f90, #fd4f50);
+  overflow: hidden;
+  background-color: #fc4546;
+  background-size: contain;
 }
 
 button:active {
@@ -11,25 +13,24 @@ button:focus {
 }
 
 .car {
-  width: 86.85vw;
-  position: absolute;
-  left: -40vw;
-  top: 22vh;
+  width: 86.45%;
+  position: fixed;
+  right: 53.5vw;
+  top: 25vh;
 }
 
 .car-wrapper {
   width: 47.2vw;
-  height: 76.11vh;
+  height: 100vh;
   padding-top: 30vh;
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   width: 100%;
   height: 100%;
   font-size: 100vw;
-  overflow: hidden;
 }
 
 .description {
@@ -91,9 +92,10 @@ button:focus {
 
 .mask {
   width: 100%;
-  height: 100vh;
-  background-position: 21% 15%;
-  background-image: url('./backgrounds/Background_Pattern_Fade.png');
+  background-image: url('./backgrounds/backgroundPatternPinkGradient@3x.png');
+  background-size: 100vmax;
+  background-position: 0px -2vh;
+  background-repeat: no-repeat;
 }
 
 .tagline {

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../stylesheets/LandingPage.css';
 import icGooglePlus from '../assets/ic-google-plus.png';
-import SplashScreenCar from '../assets/SplashScreen_Car.png'
+import splashScreenCar from '../assets/splashScreenCar.png'
 
-export const LandingPage = (props) => {
+const LandingPage = (props) => {
   return(
     <div className='container'>
       <div className='mask'>
@@ -11,7 +11,7 @@ export const LandingPage = (props) => {
           Caravan
         </div>
         <div className='car-wrapper'>
-          <img className='car' src={SplashScreenCar} alt='' />
+          <img className='car' src={splashScreenCar} alt='' />
         </div>
       </div>
       <div className='white-background'>
@@ -32,3 +32,5 @@ export const LandingPage = (props) => {
     </div>
   )
 }
+
+export default LandingPage;
