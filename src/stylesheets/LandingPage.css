@@ -2,33 +2,25 @@ body {
   background: linear-gradient(to bottom, #fc8f90, #fd4f50);
 }
 
-button:focus {
-  outline: none;
-}
-
 button:active {
   box-shadow: 0px 0px 1px 1px #e36d00;
 }
 
-.Behind {
-  y: 30.6%;
-  width: 73%;
-  height: 33%;
-  transform: rotate(-195deg);
-  border: solid 3px #ffffff;
+button:focus {
+  outline: none;
+}
+
+.car {
+  width: 86.85vw;
+  position: absolute;
+  left: -40vw;
+  top: 22vh;
 }
 
 .car-wrapper {
   width: 47.2vw;
   height: 76.11vh;
   padding-top: 30vh;
-}
-
-img.car {
-  width: 86.85vw;
-  position: absolute;
-  left: -40vw;
-  top: 22vh;
 }
 
 .container {
@@ -38,20 +30,6 @@ img.car {
   height: 100%;
   font-size: 100vw;
   overflow: hidden;
-}
-
-.google-button {
-  margin-top: 0px;
-  margin-left: 13.3%;
-  width: 50.7%;
-  padding: 0px;
-  border: 0px;
-  border-radius: 4px;
-  -webkit-backdrop-filter: blur(3.9px);
-  backdrop-filter: blur(3.9px);
-  background-color: #ffbf4c;
-  box-shadow: 2px 2px 0 0 #e36d00;
-  display: inline-flex;
 }
 
 .Log-in-with-Google {
@@ -79,12 +57,24 @@ img.car {
   margin-top: 1.78vw;
 }
 
+.google-button {
+  margin-top: 0px;
+  margin-left: 13.3%;
+  width: 50.7%;
+  padding: 0px;
+  border: 0px;
+  border-radius: 4px;
+  -webkit-backdrop-filter: blur(3.9px);
+  backdrop-filter: blur(3.9px);
+  background-color: #ffbf4c;
+  box-shadow: 2px 2px 0 0 #e36d00;
+  display: inline-flex;
+}
+
 .gplus {
   padding-left: 9.5%;
   padding-right: 0px;
   padding-top: 5%;
-  -webkit-filter: greyscale(100%) brightness(100%);
-  filter: greyscale(100%) brightness(100%);
 }
 
 .Mask {
@@ -92,23 +82,6 @@ img.car {
   height: 100vh;
   background-position: 21% 15%;
   background-image: url('./CaravanWeb_Assets/Background_Pattern_Fade.png');
-}
-
-.mask {
-  margin-top: 6.8%;
-	width: 47.2%;
-	height: 80.6%;
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	opacity: 0.4;
-	background-color: #fc5657;
-}
-
-.white-background {
-  width: 78.33%;
-  height: 100vh;
-  background-color: #ffffff;
-  font-size: 100px;
 }
 
 .Tagline {
@@ -132,4 +105,11 @@ img.car {
   line-height: 144%;
   text-align: left;
   color: #fd595a;
+}
+
+.white-background {
+  width: 78.33%;
+  height: 100vh;
+  background-color: #ffffff;
+  font-size: 100px;
 }
