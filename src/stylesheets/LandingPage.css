@@ -93,7 +93,7 @@ button:focus {
 .mask {
   width: 100%;
   background: linear-gradient(to bottom, #fc8f90, #fd4f50);
-  /*background-image: url('./backgrounds/backgroundPatternPinkGradient@3x.png');
+  /*background-image: url('https://s3.amazonaws.com/intrepid-caravan/bg-pattern-fade.svg');
   background-size: 100vmax;
   background-position: 0px -2vh;*/
   background-repeat: no-repeat;
