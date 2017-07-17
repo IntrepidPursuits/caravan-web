@@ -1,19 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import './stylesheets/index.css';
-import store from './store';
 import App from './components/App';
 import LandingPage from './components/LandingPage';
+import { Provider } from 'react-redux';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router, Route, IndexRoute } from 'react-router';
 import registerServiceWorker from './registerServiceWorker';
+import store, { history } from './store';
 
 const router = (
-  <Router history={browserHistory}>
-    <Route path='/' component={App}>
-      <IndexRoute component={LandingPage}></IndexRoute>
-    </Route>
-  </Router>
+  <Provider store={store}>
+    <Router history={history}>
+      <Route path='/' component={App}>
+        <IndexRoute component={LandingPage}></IndexRoute>
+      </Route>
+    </Router>
+  </Provider>
 )
 
 ReactDOM.render(

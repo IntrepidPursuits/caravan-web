@@ -1,5 +1,5 @@
-import React from 'react';
 import '../stylesheets/LandingPage.css';
+import React from 'react';
 import icGooglePlus from '../assets/ic-google-plus.png';
 import splashScreenCar from '../assets/splashScreenCar.png'
 
