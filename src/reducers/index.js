@@ -7,6 +7,8 @@ const reducer = (state = [], action) => {
   }
 }
 
-export const caravanApp = combineReducers({
+const rootReducer = combineReducers({
   reducer
 })
+
+export default rootReducer;
