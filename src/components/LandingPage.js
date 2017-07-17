@@ -13,7 +13,7 @@ const LandingPage = (props) => {
         <HorizontalLoopCar />
       </div>
       <div className='white-background'>
-        <LandingPageCopy />
+        <LandingPageCopy {...props}/>
       </div>
     </div>
   )

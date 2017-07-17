@@ -1,6 +1,6 @@
 import React from 'react';
 
-let carImage = `https://s3.amazonaws.com/intrepid-caravan/horizontal-loop-car.svg`
+let carImage = "https://s3.amazonaws.com/intrepid-caravan/horizontal-loop-car.svg"
 
 const HorizontalLoopCar = (props) => {
   return(

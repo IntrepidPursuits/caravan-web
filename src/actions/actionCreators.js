@@ -1,6 +1,6 @@
-export function clickGoogleLogin(googleButtonClick) {
+export function clickGoogleLogin() {
   return {
     type: 'GOOGLE_BUTTON_CLICK',
-    googleButtonClick
+    googleButtonClicked: true
   }
 }
