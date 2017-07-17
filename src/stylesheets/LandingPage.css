@@ -92,9 +92,10 @@ button:focus {
 
 .mask {
   width: 100%;
-  background-image: url('./backgrounds/backgroundPatternPinkGradient@3x.png');
+  background: linear-gradient(to bottom, #fc8f90, #fd4f50);
+  /*background-image: url('./backgrounds/backgroundPatternPinkGradient@3x.png');
   background-size: 100vmax;
-  background-position: 0px -2vh;
+  background-position: 0px -2vh;*/
   background-repeat: no-repeat;
 }
 
