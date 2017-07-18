@@ -18,8 +18,7 @@ describe ('LandingPageCopy', () => {
   })
 
   it ('displays the google login button', () => {
-    // let image = "https://s3.amazonaws.com/intrepid-caravan/ggoogle-login-button.svg";
-    let image = "icGooglePlus.svg"
+    let image = "https://s3.amazonaws.com/intrepid-caravan/google-plus-icon.svg";
     let buttonImage = wrapper.find('img').render()[0]['children'][0];
 
     expect(buttonImage['attribs']['src']).toEqual(image)
