@@ -21,12 +21,12 @@ describe ('LandingPage', () => {
     expect(wrapper.text()).toContain('Caravan')
   })
 
-  it ('has a div with className "container"', () => {
-    expect(wrapper.find('div.container')).toHaveLength(1);
+  it ('has a div with className "layout-container"', () => {
+    expect(wrapper.find('div.layout-container')).toHaveLength(1);
   })
 
-  it ('has a div with className "mask"', () => {
-    expect(wrapper.find('div.mask')).toHaveLength(1);
+  it ('has a div with className "red-background-section"', () => {
+    expect(wrapper.find('div.red-background-section')).toHaveLength(1);
   })
 
   it ('has a div with className "white-background"', () => {

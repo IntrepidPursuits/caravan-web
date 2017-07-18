@@ -8,7 +8,7 @@ class LandingPageCopy extends Component {
         <div className='tagline'>
           Welcome to Caravan
         </div>
-        <div className='description'>
+        <div className='caravan-description'>
           Taking a road trip? Organize how
           travelers will get to their destination.
         </div>

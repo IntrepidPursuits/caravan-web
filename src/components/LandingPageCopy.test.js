@@ -13,7 +13,7 @@ describe ('LandingPageCopy', () => {
   it ('has the right description', () => {
     let text = "Taking a road trip? Organize how travelers will get to their destination."
 
-    expect(wrapper.find('div.description')).toHaveLength(1);
+    expect(wrapper.find('div.caravan-description')).toHaveLength(1);
     expect(wrapper.text()).toContain(text);
   })
 
