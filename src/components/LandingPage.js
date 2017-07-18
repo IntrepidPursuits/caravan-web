@@ -5,14 +5,14 @@ import LandingPageCopy from './LandingPageCopy'
 
 const LandingPage = (props) => {
   return(
-    <div className='layout-container'>
-      <div className='red-background-section'>
-        <div className='caravan-logo'>
+    <div className='container'>
+      <div className='background'>
+        <div className='background-logo'>
           Caravan
         </div>
         <HorizontalLoopCar />
       </div>
-      <div className='white-background'>
+      <div className='background-overlay'>
         <LandingPageCopy {...props}/>
       </div>
     </div>
