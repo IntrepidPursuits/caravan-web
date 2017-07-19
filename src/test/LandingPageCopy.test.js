@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import LandingPageCopy from './LandingPageCopy';
+import LandingPageCopy from '../components/LandingPageCopy';
 
 describe ('LandingPageCopy', () => {
   let wrapper = shallow(<LandingPageCopy />);
@@ -24,7 +24,6 @@ describe ('LandingPageCopy', () => {
     expect(buttonImage['attribs']['src']).toEqual(image)
     expect(wrapper.text()).toContain("Log in with Google");
     expect(wrapper.find('button.google-button')).toHaveLength(1);
-    expect(wrapper.find('div.gplus')).toHaveLength(1);
-    expect(wrapper.find('img')).toHaveLength(1);
+    expect(wrapper.find('img.gplus')).toHaveLength(1);
   })
 })

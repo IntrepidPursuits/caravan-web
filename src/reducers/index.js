@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
-import googleButtonClick from './googleButtonClick';
+import googleButton from './googleButton';
 
 const rootReducer = combineReducers({
-  googleButtonClick,
-  routing: routerReducer
+  googleButton,
+  routing: routerReducer,
 })
 
 export default rootReducer;

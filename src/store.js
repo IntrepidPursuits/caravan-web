@@ -3,11 +3,9 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import { browserHistory } from 'react-router';
 import rootReducer from './reducers/index';
 
-let googleButtonClick = {clicked: false};
+let googleButton = {isClicked: false};
 
-const defaultState = {
-  googleButtonClick
-}
+const defaultState = { googleButton }
 
 const enhancer = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
 

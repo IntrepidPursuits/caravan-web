@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import { icGooglePlus } from '../utilities/imageUrls'
 
 class LandingPageCopy extends Component {
   render(){
-    let icGooglePlus = 'https://s3.amazonaws.com/intrepid-caravan/google-plus-icon.svg'
     return(
       <div>
         <div className='tagline'>

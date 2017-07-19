@@ -44,13 +44,13 @@ button {
 }
 
 .pink-gradient-container {
-	background: linear-gradient(to bottom, $lightest-pink, $reddish-pink);
+	background: linear-gradient(to bottom, $light-pink, $reddish-pink);
 	position: relative;
 	width: 56%;
 }
 
 .pink-pattern {
-	background: $darkest-coral $landing_page_pattern;
+	background: $landing_page_pattern;
 	background-position: 1% -7%;
 	background-repeat: no-repeat;
 	position: absolute;

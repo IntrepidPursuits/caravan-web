@@ -4,9 +4,7 @@ import * as actionCreators from '../actions/actionCreators';
 import Main from './Main';
 
 function mapStateToProps(state) {
-  return {
-    googleButtonClick: state.googleButtonClick
-  }
+  return { googleButtonClick: state.googleButtonClick }
 }
 
 function mapDispatchToProps(dispatch) {

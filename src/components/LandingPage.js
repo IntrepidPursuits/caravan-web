@@ -1,4 +1,3 @@
-import '../stylesheets/LandingPage.css';
 import React from 'react';
 import HorizontalLoopCar from './HorizontalLoopCar'
 import LandingPageCopy from './LandingPageCopy'
