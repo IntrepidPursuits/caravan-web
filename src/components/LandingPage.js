@@ -6,8 +6,8 @@ import LandingPageCopy from './LandingPageCopy'
 const LandingPage = (props) => {
   return(
     <div className='container'>
-      <div className='gradient-container'>
-        <div className='pattern'>
+      <div className='pink-gradient-container'>
+        <div className='pink-pattern'>
           <div className='background-logo'>
             Caravan
           </div>

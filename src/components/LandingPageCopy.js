@@ -13,10 +13,8 @@ class LandingPageCopy extends Component {
           </div>
         </div>
         <button className='google-button' onClick={this.props.clickGoogleLogin}>
-          <div className='button-content'>
-            <img className='gplus' src={icGooglePlus} alt=''/>
-            Log in with Google
-          </div>
+          <img className='gplus' src={icGooglePlus} alt=''/>
+          Log in with Google
         </button>
       </div>
     )

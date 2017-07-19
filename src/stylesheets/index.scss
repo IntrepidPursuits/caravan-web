@@ -1,8 +1,58 @@
 @import './constants/fonts.scss';
+@import './LandingPage.scss';
 
 body {
 	font-family: $montserrat;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+}
+
+button {
+	&:active {
+		box-shadow: 0 0 1px 1px $clementine-orange;
+	}
+	&:focus {
+		outline: none;
+	}
+	background-color: $butterscotch;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 0 $clementine-orange;
+	color: $white;
+	display: inline-flex;
+	font-size: 15px;
+	padding: 2% 5%;
+	text-align: center;
+	top: 45%;
+	vertical-align: middle;
+	width: 51%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+  height: 100vh;
+	width: 100vw;
+}
+
+@media (min-width: 1143px) {
+	button {
+		font-size: 20px;
+		font-weight: 400;
+	}
+}
+
+.pink-gradient-container {
+	background: linear-gradient(to bottom, $lightest-pink, $reddish-pink);
+	position: relative;
+	width: 56%;
+}
+
+.pink-pattern {
+	background: $darkest-coral $landing_page_pattern;
+	background-position: 1% -7%;
+	background-repeat: no-repeat;
+	position: absolute;
+  width: 100%;
 }
