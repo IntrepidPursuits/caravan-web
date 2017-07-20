@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { icGooglePlus } from '../utilities/imageUrls'
+import { icGooglePlus } from '../../../utilities/imageUrls'
 
 class LandingPageCopy extends Component {
   render(){

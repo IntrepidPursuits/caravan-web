@@ -1,7 +1,7 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as actionCreators from '../actions/actionCreators';
-import Main from './Main';
+import * as actionCreators from '../../actions/actionCreators';
+import Main from '../Main/index';
 
 function mapStateToProps(state) {
   return { googleButtonClick: state.googleButtonClick }

@@ -1,4 +1,4 @@
-import * as actions from '../actions/actionCreators';
+import * as actions from '../actionCreators';
 
 describe ('clickGoogleLogin', () => {
   it ('should create an action to set googleButtonClick.clicked to true', () => {

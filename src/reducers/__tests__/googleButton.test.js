@@ -1,4 +1,4 @@
-import googleButton from '../reducers/googleButton';
+import googleButton from '../googleButton';
 
 describe ('googleButton reducer', () => {
   const initialState = { isClicked: false }

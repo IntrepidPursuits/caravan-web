@@ -1,9 +1,9 @@
 import { createStore } from 'redux';
 import { syncHistoryWithStore } from 'react-router-redux';
 import { browserHistory } from 'react-router';
-import rootReducer from './reducers/index';
+import rootReducer from '../reducers/index';
 
-let googleButton = {isClicked: false};
+const googleButton = {isClicked: false};
 
 const defaultState = { googleButton }
 

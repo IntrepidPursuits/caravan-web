@@ -1,5 +1,5 @@
 import React from 'react';
-import { carImage } from '../utilities/imageUrls'
+import { carImage } from '../../../utilities/imageUrls'
 
 const HorizontalLoopCar = (props) => {
   return(

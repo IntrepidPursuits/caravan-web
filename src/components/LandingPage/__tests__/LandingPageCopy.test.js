@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import LandingPageCopy from '../components/LandingPageCopy';
+import LandingPageCopy from '../Copy/index';
 
 describe ('LandingPageCopy', () => {
   let wrapper = shallow(<LandingPageCopy />);
