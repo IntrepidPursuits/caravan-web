@@ -25,15 +25,15 @@ describe ('LandingPage', () => {
     expect(wrapper.find('div.container')).toHaveLength(1);
   })
 
-  it ('has a div with className "pink-gradient-container"', () => {
-    expect(wrapper.find('div.pink-gradient-container')).toHaveLength(1);
+  it ('has a div with className "splashscreen-gradient"', () => {
+    expect(wrapper.find('div.splashscreen-gradient')).toHaveLength(1);
   })
 
-  it ('has a div with className "pink-pattern"', () => {
-    expect(wrapper.find('div.pink-pattern')).toHaveLength(1);
+  it ('has a div with className "splashscreen-pattern"', () => {
+    expect(wrapper.find('div.splashscreen-pattern')).toHaveLength(1);
   })
 
-  it ('has a div with className "background-overlay"', () => {
-    expect(wrapper.find('div.background-overlay')).toHaveLength(1);
+  it ('has a div with className "welcome-background"', () => {
+    expect(wrapper.find('div.welcome-background')).toHaveLength(1);
   })
 })

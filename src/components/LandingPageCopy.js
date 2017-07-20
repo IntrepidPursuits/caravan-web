@@ -5,9 +5,9 @@ class LandingPageCopy extends Component {
   render(){
     return(
       <div>
-        <div className='tagline'>
+        <div className='welcome'>
           Welcome to Caravan
-          <div className='caravan-description'>
+          <div className='welcome-description'>
             Taking a road trip? Organize how
             travelers will get to their destination.
           </div>

@@ -1,7 +1,7 @@
 @import './constants/colors.scss';
 @import './constants/urls.scss';
 
-.background-logo {
+.splashscreen-logo {
   color: $white;
 	font-size: 30px;
 	font-weight: 600;
@@ -9,11 +9,6 @@
 	margin: 3% 15%;
   text-align: center;
   width: 20%;
-}
-
-.background-overlay {
-	background-color: $white;
-  width: 44%;
 }
 
 .car {
@@ -28,30 +23,32 @@
 	padding-top: 40%;
 }
 
-.caravan-description {
-	color: $carnation-pink;
-	font-size: 18px;
-	line-height: 144%;
-	margin-right: 23%;
-	margin-top: 5%;
-}
-
 .google-button {
 	margin: 5% 13%;
 }
 
 img.gplus {
 	height: 44%;
-	padding-right: 5%;
+	padding: 0 5% 0 0;
 	vertical-align: text-bottom;
 }
 
-.tagline {
+.welcome {
   color: $carnation-pink;
 	display: inline-block;
   font-size: 40px;
   font-weight: 500;
-	margin-left: 13%;
-	margin-right: 5%;
-	margin-top: 250px;
+	margin: 250px 5% 0 13%;
+}
+
+.welcome-background {
+  background-color: $white;
+  width: 44%;
+}
+
+.welcome-description {
+  color: $carnation-pink;
+  font-size: 18px;
+  line-height: 144%;
+  margin: 5% 23% 0 0;
 }
