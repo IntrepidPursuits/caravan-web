@@ -1,0 +1,90 @@
+.splashscreen-logo {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 3% 15%;
+  text-align: center;
+  width: 20%; }
+
+.car {
+  position: fixed;
+  right: 53%;
+  top: 25%;
+  width: 86%; }
+
+.car-wrapper {
+  height: 100vh;
+  padding-top: 40%; }
+
+.google-button {
+  margin: 5% 13%; }
+
+img.gplus {
+  height: 44%;
+  padding: 0 5% 0 0;
+  vertical-align: text-bottom; }
+
+.welcome {
+  color: #fd595a;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 250px 5% 0 13%; }
+
+.welcome-background {
+  background-color: #ffffff;
+  width: 44%; }
+
+.welcome-description {
+  color: #fd595a;
+  font-size: 18px;
+  line-height: 144%;
+  margin: 5% 23% 0 0; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+button {
+  background-color: #ffbf4c;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 0 #e36d00;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 15px;
+  padding: 2% 5%;
+  text-align: center;
+  top: 45%;
+  vertical-align: middle;
+  width: 51%; }
+  button:active {
+    box-shadow: 0 0 1px 1px #e36d00; }
+  button:focus {
+    outline: none; }
+
+@media (min-width: 1143px) {
+  button {
+    font-size: 20px;
+    font-weight: 400; } }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw; }
+
+.splashscreen-gradient {
+  background: linear-gradient(to bottom, #fc8f90, #fd4f50);
+  position: relative;
+  width: 56%; }
+
+.splashscreen-pattern {
+  background: url(https://s3.amazonaws.com/intrepid-caravan/bg-pattern-pink.svg);
+  background-position: 1% -7%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%; }
