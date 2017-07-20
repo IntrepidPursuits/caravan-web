@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HorizontalLoopCar from '../HorizontalLoopCar/index';
+import HorizontalLoopCar from '../LandingPage/HorizontalLoopCar/index';
 import { shallow } from 'enzyme';
 
 describe ('HorizontalLoopCar', () => {
