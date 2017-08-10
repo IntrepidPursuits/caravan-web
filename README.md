@@ -9,3 +9,5 @@ _Caravan lets users create custom trips – or Caravans – to help plan and org
 
 
 [Caravan Android App](http://intrepid.io/ota/caravan-android/)
+
+License: No-license. Copyright excluse to Intrepid Pursuits.
